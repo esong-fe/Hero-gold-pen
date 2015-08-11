@@ -1,0 +1,24 @@
+.yx-banner {
+  height: 300px; }
+
+.yx-talent-container {
+  padding-top: 30px;
+  padding-bottom: 60px; }
+  .yx-talent-container .yx-talent-left li {
+    margin-top: 30px; }
+    .yx-talent-container .yx-talent-left li a {
+      font-size: 20px;
+      color: #9f9f9f;
+      padding-bottom: 10px; }
+      .yx-talent-container .yx-talent-left li a.active, .yx-talent-container .yx-talent-left li a:hover {
+        border-bottom: 2px solid #000;
+        color: #373634;
+        text-decoration: none; }
+  .yx-talent-container .yx-talent-right {
+    border-top: 1px solid #dadada;
+    padding: 25px 0 0; }
+    .yx-talent-container .yx-talent-right p {
+      margin-bottom: 20px; }
+
+.yx-banner {
+  background: url("banner-concept.png") no-repeat center center; }

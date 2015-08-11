@@ -1,0 +1,56 @@
+.yx-banner {
+  background: url("banner.png") no-repeat center center; }
+
+.yx-history {
+  background: url("history-background.png") no-repeat center center;
+  padding-top: 140px;
+  padding-bottom: 90px; }
+
+.yx-history-item {
+  height: 210px;
+  color: #fff; }
+  .yx-history-item .yx-history-string {
+    height: 210px;
+    position: relative;
+    width: 18px; }
+    .yx-history-item .yx-history-string .yx-history-line-1 {
+      background-color: #fff;
+      margin: 0 auto;
+      width: 1px;
+      height: 10px; }
+    .yx-history-item .yx-history-string .yx-history-line-2 {
+      background-color: #fff;
+      margin: 0 auto;
+      width: 1px;
+      height: 182px; }
+    .yx-history-item .yx-history-string .yx-history-circle {
+      background-color: #fff;
+      width: 18px;
+      height: 18px;
+      -webkit-border-radius: 9px;
+      -moz-border-radius: 9px;
+      border-radius: 9px; }
+  .yx-history-item .yx-history-content {
+    width: 400px;
+    margin-left: 10px;
+    margin-right: 100px; }
+    .yx-history-item .yx-history-content h1 {
+      margin-top: 2px;
+      margin-bottom: 25px; }
+  .yx-history-item:first-child .yx-history-line-1, .yx-history-item:last-child .yx-history-line-2 {
+    background-color: transparent; }
+  .yx-history-item .yx-img-triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 7px 20px 7px 0;
+    border-color: transparent #fff transparent transparent;
+    position: relative;
+    top: 20px; }
+  .yx-history-item .yx-img-container {
+    background-color: #fff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    max-width: 235px;
+    padding: 14px 12px; }

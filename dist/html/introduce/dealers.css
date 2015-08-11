@@ -1,0 +1,21 @@
+.yx-about-container {
+  padding-top: 65px;
+  padding-bottom: 90px; }
+  .yx-about-container .container {
+    border: 1px solid #cecece;
+    padding: 70px 100px; }
+
+.yx-banner {
+  background: url("banner.png") no-repeat center center; }
+
+.yx-about-container {
+  background-color: #f8f8f8; }
+  .yx-about-container .container {
+    background-color: #fff; }
+    .yx-about-container .container .row {
+      margin-bottom: 90px; }
+      .yx-about-container .container .row h4 {
+        color: #006a3a; }
+      .yx-about-container .container .row p {
+        margin-top: 40px;
+        margin-bottom: 30px; }

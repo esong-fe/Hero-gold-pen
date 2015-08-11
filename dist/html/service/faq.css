@@ -1,0 +1,30 @@
+.yx-banner {
+  background: url(banner.png) no-repeat center center; }
+
+.yx-faq-container {
+  padding-top: 60px; }
+  .yx-faq-container .yx-panel-content {
+    border-top: 1px dotted #378d82;
+    padding-top: 20px; }
+  .yx-faq-container .yx-collapse-in .panel-heading {
+    background-color: #b6d7ce; }
+  .yx-faq-container .yx-panel-left {
+    width: 50px;
+    color: #02746c; }
+  .yx-faq-container .yx-panel-right {
+    width: 850px; }
+  .yx-faq-container .panel {
+    margin-bottom: 30px;
+    border-radius: 14px;
+    border-color: #378d82; }
+  .yx-faq-container .panel-body {
+    padding-top: 0;
+    padding-bottom: 25px;
+    border-top: none !important; }
+  .yx-faq-container .panel-heading, .yx-faq-container .panel-body {
+    padding-left: 50px;
+    padding-right: 40px; }
+  .yx-faq-container .panel-heading {
+    padding-top: 23px;
+    padding-bottom: 23px;
+    border-radius: 14px; }

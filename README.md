@@ -32,3 +32,9 @@
 [HTML5 Shiv](https://github.com/aFarkas/html5shiv)
 
 [Respond.js](https://github.com/scottjehl/Respond)
+
+## 在线演示
+
+此项目以私有状态托管在 [Git@OSC](https://git.oschina.net/) 上，访问 [yxgoldpen.oschina.cnpaas.io](http://yxgoldpen.oschina.cnpaas.io/) 即可在线演示。
+
+受到 Git@OSC 演示平台的限制，只好将 `dist` 也上传到了项目里，同时在项目根目录添加了一个 `index.html` 做跳转。

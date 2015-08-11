@@ -1,0 +1,115 @@
+.yx-product-list {
+  padding-top: 30px;
+  padding-bottom: 65px;
+  background-color: #f7f7f7; }
+  .yx-product-list .row {
+    margin-bottom: 16px; }
+    .yx-product-list .row .col-sm-3 {
+      padding: 0 8px; }
+  .yx-product-list .yx-product-container {
+    background-color: #fff;
+    padding: 20px;
+    position: relative; }
+    .yx-product-list .yx-product-container .yx-product-img-container {
+      min-height: 130px;
+      margin-bottom: 10px; }
+    .yx-product-list .yx-product-container .yx-product-summary {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      bottom: 20px;
+      right: 20px;
+      padding: 0 15px;
+      z-index: 1;
+      color: #fff;
+      -webkit-transition: all 0.2s;
+      -moz-transition: all 0.2s;
+      -ms-transition: all 0.2s;
+      -o-transition: all 0.2s;
+      transition: all 0.2s;
+      opacity: 0.01;
+      visibility: hidden;
+      background-color: rgba(0, 116, 107, 0.9);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#E500746B,endColorstr=#E500746B); }
+      .yx-product-list .yx-product-container .yx-product-summary:hover {
+        text-decoration: none; }
+      .yx-product-list .yx-product-container .yx-product-summary h4 {
+        margin-top: 20px; }
+    .yx-product-list .yx-product-container:hover .yx-product-summary {
+      opacity: 1;
+      visibility: visible; }
+  .yx-product-list .yx-product-bottom {
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 15px 0;
+    background-color: #fff; }
+    .yx-product-list .yx-product-bottom .yx-icon-plus {
+      background: url(plus.png) no-repeat;
+      width: 30px;
+      height: 30px;
+      margin: 0 auto; }
+
+.yx-jumbotron {
+  height: 400px;
+  background: url(list-banner.png) no-repeat center center; }
+  .yx-jumbotron .yx-jumbotron-container {
+    margin-top: 100px;
+    margin-left: 680px;
+    width: 350px; }
+    .yx-jumbotron .yx-jumbotron-container h1 {
+      padding-bottom: 20px;
+      border-bottom: 1px solid #e1e1e1; }
+    .yx-jumbotron .yx-jumbotron-container p {
+      margin-bottom: 30px; }
+    .yx-jumbotron .yx-jumbotron-container .btn {
+      padding: 11px 29px;
+      border-color: #9f9f9f;
+      color: #000;
+      border-radius: 3px; }
+
+.yx-product-filter {
+  padding: 35px 0;
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed; }
+  .yx-product-filter .yx-choose-bar {
+    width: 80%;
+    margin: 0 auto; }
+    .yx-product-filter .yx-choose-bar .yx-item {
+      padding: 0; }
+      .yx-product-filter .yx-choose-bar .yx-item .yx-list-item-name {
+        cursor: default;
+        font-size: 16px;
+        padding: 25px 0;
+        border: 1px solid #f5f5f5;
+        -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        -ms-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s; }
+      .yx-product-filter .yx-choose-bar .yx-item .yx-list-item-choose {
+        margin: 0;
+        padding: 15px 0;
+        border-bottom: 1px solid #f5f5f5;
+        -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        -ms-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s;
+        opacity: 0.01;
+        visibility: hidden; }
+        .yx-product-filter .yx-choose-bar .yx-item .yx-list-item-choose .yx-choose-item {
+          cursor: pointer;
+          -webkit-transition: all 0.2s;
+          -moz-transition: all 0.2s;
+          -ms-transition: all 0.2s;
+          -o-transition: all 0.2s;
+          transition: all 0.2s; }
+          .yx-product-filter .yx-choose-bar .yx-item .yx-list-item-choose .yx-choose-item:hover, .yx-product-filter .yx-choose-bar .yx-item .yx-list-item-choose .yx-choose-item.active {
+            color: #00746b; }
+      .yx-product-filter .yx-choose-bar .yx-item:hover .yx-list-item-name, .yx-product-filter .yx-choose-bar .yx-item.active .yx-list-item-name {
+        background-color: #00746b;
+        border-color: #00746b;
+        color: #fff; }
+      .yx-product-filter .yx-choose-bar .yx-item:hover .yx-list-item-choose, .yx-product-filter .yx-choose-bar .yx-item.active .yx-list-item-choose {
+        opacity: 1;
+        visibility: visible; }

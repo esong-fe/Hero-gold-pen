@@ -1,0 +1,18 @@
+.yx-banner {
+  background: url(banner.png) no-repeat center center; }
+
+.yx-main-container {
+  padding-top: 60px; }
+  .yx-main-container .yx-main-method {
+    margin-bottom: 40px;
+    padding: 40px 60px;
+    border: 15px solid #b6d7ce; }
+    .yx-main-container .yx-main-method .yx-pic {
+      float: right; }
+    .yx-main-container .yx-main-method h3 {
+      color: #00746b;
+      margin-top: 0;
+      margin-bottom: 45px; }
+    .yx-main-container .yx-main-method p {
+      padding-left: 25px;
+      width: 440px; }
