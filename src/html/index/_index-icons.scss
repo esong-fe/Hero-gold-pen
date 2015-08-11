@@ -1,0 +1,69 @@
+
+@mixin learn-more-btn {
+  background-color: transparent;
+  //font-weight: bold;
+}
+
+@mixin index-icon {
+  background: url(index-icon.png) no-repeat;
+  display: inline-block;
+}
+
+$icon-cross-width: 111px;
+
+// 十字形图标
+.icon-cross {
+  @include index-icon;
+  width: $icon-cross-width;
+  height: $icon-cross-width;
+  background-position: 0 -100px;
+}
+
+// 人形图标
+.icon-man {
+  @include index-icon;
+  width: 49px;
+  height: 73px;
+  background-position: 0 0;
+}
+
+// 信封图标
+.icon-letter {
+  @include index-icon;
+  width: 73px;
+  height: 73px;
+  background-position: -60px 0;
+}
+
+// 齿轮图标
+.icon-gear {
+  @include index-icon;
+  width: 71px;
+  height: 72px;
+  background-position: -140px 0;
+}
+
+// 礼物图标
+.icon-gift {
+  @include index-icon;
+  width: 82px;
+  height: 71px;
+  background-position: -220px 0;
+}
+
+@mixin icon-arrow {
+  @include index-icon;
+  width: 12px;
+  height: 20px;
+  background-position-y: -100px;
+}
+
+@mixin icon-arrow-left {
+  @include icon-arrow;
+  background-position-x: -140px;
+}
+
+@mixin icon-arrow-right {
+  @include icon-arrow;
+  background-position-x: -220px;
+}

@@ -1,0 +1,95 @@
+@import 'variables';
+
+@mixin icon {
+  display: inline-block;
+  background: url(../images/footer.png) no-repeat;
+}
+
+.yx-icon-cart {
+  @include icon;
+  width: 16px;
+  height: 16px;
+  background-position: -20px 0;
+}
+
+.yx-icon-location {
+  @include icon;
+  width: 14px;
+  height: 19px;
+  background-position: 0 0;
+}
+
+.yx-icon-qq {
+  @include icon;
+  width: 26px;
+  height: 26px;
+  background-position: -40px -20px;
+}
+
+.yx-icon-wb {
+  @include icon;
+  width: 33px;
+  height: 27px;
+  background-position: -70px -20px;
+}
+
+.yx-icon-wx {
+  @include icon;
+  width: 32px;
+  height: 26px;
+  background-position: 0 -20px;
+}
+
+.yx-footer {
+  padding: {
+    top: 35px;
+  }
+  background-color: $header_footer_color;
+  color: $border_color_in_dark;
+  & a {
+    color: $border_color_in_dark;
+  }
+
+  .yx-icon-container {
+    margin-top: 10px;
+    a {
+      margin-right: 25px;
+    }
+  }
+
+  h4 {
+    color: #ddd;
+    margin-bottom: 27px;
+  }
+
+  p {
+    margin-bottom: 15px;
+    line-height: 1.8;
+  }
+
+  .yx-footer-row-padding {
+    padding: 0 50px;
+  }
+
+  .yx-footer-copyright {
+    border-top: 1px solid $border_color_in_dark;
+    padding: {
+      top: 25px;
+      bottom: 25px;
+    }
+  }
+
+  $top: 6px;
+  .yx-address, .yx-tmall {
+    padding-left: 25px;
+    position: relative;
+    top: -#{$top};
+  }
+
+  .yx-icon-cart, .yx-icon-location {
+    position: absolute;
+    top: $top;
+    left: 0;
+  }
+
+}

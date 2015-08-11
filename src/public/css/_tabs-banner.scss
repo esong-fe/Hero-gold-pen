@@ -1,0 +1,41 @@
+.yx-banner {
+  height: 227px;
+  background-color: gray;
+  h2 {
+    margin-top: 60px;
+    color: #fff;
+  }
+}
+
+.yx-nav-bar {
+  .container {
+    position: relative;
+    .row {
+      $height: 60px;
+      position: absolute;
+      top: -$height;
+      left: 15px;
+      right: 15px;
+      a {
+        display: block;
+        font-size: 18px;
+        height: $height;
+        line-height: $height;
+        background-color: #a0a0a0;
+        color: #fff;
+        border: 1px solid #7f7b7a;
+        border-bottom: none;
+
+        &.active, &:hover {
+          background-color: #fff;
+          color: #000;
+          border-color: #d6d5d3;
+        }
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

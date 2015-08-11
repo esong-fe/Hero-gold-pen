@@ -1,0 +1,35 @@
+@import "index-icons";
+
+// 覆盖 bxslider 插件的 css
+.bx-wrapper {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+@mixin bxslider-top {
+  top: 447px;
+}
+
+$bxslider-pager-space: -35px;
+
+.bx-wrapper .bx-controls-direction .bx-prev {
+  @include icon-arrow-left;
+  @include bxslider-top;
+  left: $bxslider-pager-space;
+}
+
+.bx-wrapper .bx-controls-direction .bx-next {
+  @include icon-arrow-right;
+  @include bxslider-top;
+  right: $bxslider-pager-space;
+}
+
+// 小尺寸设备下隐藏 下一个、上一个 按钮，因为这样会导致出现水平滚动条
+@media (max-width: 801px) {
+  .bx-controls {
+    display: none;
+  }
+}

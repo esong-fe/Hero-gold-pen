@@ -1,0 +1,21 @@
+@import "container";
+@import "banner";
+.yx-about-container {
+  .container {
+    .yx-assign {
+      float: right;
+    }
+    h1 {
+      margin: 70px 0;
+    }
+    p {
+      margin-bottom: 20px;
+      line-height: 1.8;
+    }
+
+    .yx-logo-big {
+      margin-top: 80px;
+      margin-bottom: 20px;
+    }
+  }
+}

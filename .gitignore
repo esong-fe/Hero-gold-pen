@@ -1,0 +1,6 @@
+src/**/*.js
+!src/vendor/**/*.js
+src/**/*.css
+!src/vendor/**/*.css
+dist/
+node_modules/
