@@ -49,22 +49,18 @@ p {
 
 .yx-section-2 {
   padding: 88px 0;
-  .yx-square {
+
+  .pull-left {
+    width: 100% / 5;
+  }
+
+  .yx-category {
     background: no-repeat right bottom;
     padding: {
       top: 26px;
       left: 46px;
     }
-
-    &.one {
-      background-image: url(index_pen.png);
-    }
-    &.two {
-      background-image: url(index_pen2.png);
-    }
-    &.three {
-      background-image: url(index_pen3.png);
-    }
+    height: 370px;
   }
 }
 
