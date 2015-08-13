@@ -51,14 +51,16 @@ p {
   padding: 88px 0;
 
   .pull-left {
-    width: 100% / 5;
+    width: (100% / 5);
+    padding-right: 10px;
   }
 
   .yx-category {
     background: no-repeat right bottom;
+    background-color: gray;
     padding: {
-      top: 26px;
-      left: 46px;
+      top: 40px;
+      left: 30px;
     }
     height: 370px;
   }
