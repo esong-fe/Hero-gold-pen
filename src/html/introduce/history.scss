@@ -21,19 +21,19 @@ $base-height: 210px;
     position: relative;
     width: $circle-with;
 
-    @mixin common-for-line {
+    %common-for-line {
       background-color: $base-color;
       margin: 0 auto;
       width: 1px;
     }
 
     .yx-history-line-1 {
-      @include common-for-line;
+      @extend %common-for-line;
       height: $line-1-height;
     }
 
     .yx-history-line-2 {
-      @include common-for-line;
+      @extend %common-for-line;
       height: $line-2-height;
     }
 

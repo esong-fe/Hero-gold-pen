@@ -1,6 +1,9 @@
 @import '../../public/css/_variables.scss';
-@import 'index-icons';
-@import 'override_bxslider';
+@import "icons-index";
+// 首页用到的各种图标
+@import "bxslider";
+
+// 覆盖 bxslider 插件的 css
 
 p {
   color: #b6b6b6;
@@ -12,7 +15,7 @@ p {
 }
 
 .yx-header-bg {
-  background: url("bg.png") no-repeat center center;
+  background: url("images/bg.png") no-repeat center center;
 }
 
 .yx-index-jumbotron {
@@ -55,14 +58,26 @@ p {
     padding-right: 10px;
   }
 
-  .yx-category {
+  %yx-category {
     background: no-repeat right bottom;
-    background-color: gray;
     padding: {
       top: 40px;
       left: 30px;
     }
     height: 370px;
+  }
+
+  .yx-bg-category-1 {
+    @extend %yx-category;
+    background-image: url(images/category-1.png);
+  }
+  .yx-bg-category-2 {
+    @extend %yx-category;
+    background-image: url(images/category-2.png);
+  }
+  .yx-bg-category-3 {
+    @extend %yx-category;
+    background-image: url(images/category-3.png);
   }
 }
 

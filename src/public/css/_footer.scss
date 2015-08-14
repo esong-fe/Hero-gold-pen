@@ -1,40 +1,40 @@
 @import 'variables';
 
-@mixin icon {
+.icon {
   display: inline-block;
   background: url(../images/footer.png) no-repeat;
 }
 
 .yx-icon-cart {
-  @include icon;
+  @extend .icon;
   width: 16px;
   height: 16px;
   background-position: -20px 0;
 }
 
 .yx-icon-location {
-  @include icon;
+  @extend .icon;
   width: 14px;
   height: 19px;
   background-position: 0 0;
 }
 
 .yx-icon-qq {
-  @include icon;
+  @extend .icon;
   width: 26px;
   height: 26px;
   background-position: -40px -20px;
 }
 
 .yx-icon-wb {
-  @include icon;
+  @extend .icon;
   width: 33px;
   height: 27px;
   background-position: -70px -20px;
 }
 
 .yx-icon-wx {
-  @include icon;
+  @extend .icon;
   width: 32px;
   height: 26px;
   background-position: 0 -20px;
