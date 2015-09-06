@@ -97,7 +97,6 @@
         opacity: 0.01;
         visibility: hidden; }
         .yx-product-filter .yx-choose-bar .yx-item .yx-list-item-choose .yx-choose-item {
-          cursor: pointer;
           -webkit-transition: all 0.2s;
           -moz-transition: all 0.2s;
           -ms-transition: all 0.2s;
