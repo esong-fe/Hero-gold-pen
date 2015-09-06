@@ -1,72 +1,42 @@
-.icon-cross {
+.icon-cross, .icon-man, .icon-letter, .icon-gear, .icon-gift, .bx-wrapper .bx-controls-direction .bx-prev, .bx-wrapper .bx-controls-direction .bx-next {
   background: url(index-icon.png) no-repeat;
-  display: inline-block;
+  display: inline-block; }
+
+.icon-cross {
   width: 111px;
   height: 111px;
   background-position: 0 -100px; }
 
 .icon-man {
-  background: url(index-icon.png) no-repeat;
-  display: inline-block;
   width: 49px;
   height: 73px;
   background-position: 0 0; }
 
 .icon-letter {
-  background: url(index-icon.png) no-repeat;
-  display: inline-block;
   width: 73px;
   height: 73px;
   background-position: -60px 0; }
 
 .icon-gear {
-  background: url(index-icon.png) no-repeat;
-  display: inline-block;
   width: 71px;
   height: 72px;
   background-position: -140px 0; }
 
 .icon-gift {
-  background: url(index-icon.png) no-repeat;
-  display: inline-block;
   width: 82px;
   height: 71px;
   background-position: -220px 0; }
 
-.icon-cross {
-  background: url(index-icon.png) no-repeat;
-  display: inline-block;
-  width: 111px;
-  height: 111px;
-  background-position: 0 -100px; }
+.bx-wrapper .bx-controls-direction .bx-prev, .bx-wrapper .bx-controls-direction .bx-next {
+  width: 12px;
+  height: 20px;
+  background-position-y: -100px; }
 
-.icon-man {
-  background: url(index-icon.png) no-repeat;
-  display: inline-block;
-  width: 49px;
-  height: 73px;
-  background-position: 0 0; }
+.bx-wrapper .bx-controls-direction .bx-prev {
+  background-position-x: -140px; }
 
-.icon-letter {
-  background: url(index-icon.png) no-repeat;
-  display: inline-block;
-  width: 73px;
-  height: 73px;
-  background-position: -60px 0; }
-
-.icon-gear {
-  background: url(index-icon.png) no-repeat;
-  display: inline-block;
-  width: 71px;
-  height: 72px;
-  background-position: -140px 0; }
-
-.icon-gift {
-  background: url(index-icon.png) no-repeat;
-  display: inline-block;
-  width: 82px;
-  height: 71px;
-  background-position: -220px 0; }
+.bx-wrapper .bx-controls-direction .bx-next {
+  background-position-x: -220px; }
 
 .bx-wrapper {
   -moz-box-shadow: none;
@@ -75,24 +45,13 @@
   background-color: transparent;
   border-color: transparent; }
 
+.bx-wrapper .bx-controls-direction .bx-prev, .bx-wrapper .bx-controls-direction .bx-next {
+  top: 447px; }
+
 .bx-wrapper .bx-controls-direction .bx-prev {
-  background: url(index-icon.png) no-repeat;
-  display: inline-block;
-  width: 12px;
-  height: 20px;
-  background-position-y: -100px;
-  background-position-x: -140px;
-  top: 447px;
   left: -35px; }
 
 .bx-wrapper .bx-controls-direction .bx-next {
-  background: url(index-icon.png) no-repeat;
-  display: inline-block;
-  width: 12px;
-  height: 20px;
-  background-position-y: -100px;
-  background-position-x: -220px;
-  top: 447px;
   right: -35px; }
 
 @media (max-width: 801px) {
@@ -107,7 +66,7 @@ p {
   border-bottom: 1px solid #49413f; }
 
 .yx-header-bg {
-  background: url("bg.png") no-repeat center center; }
+  background: url("images/bg.png") no-repeat center center; }
 
 .yx-index-jumbotron {
   height: 560px;
@@ -132,16 +91,20 @@ p {
 
 .yx-section-2 {
   padding: 88px 0; }
-  .yx-section-2 .yx-square {
+  .yx-section-2 .pull-left {
+    width: 20%;
+    padding-right: 10px; }
+  .yx-section-2 .yx-bg-category-1, .yx-section-2 .yx-bg-category-2, .yx-section-2 .yx-bg-category-3 {
     background: no-repeat right bottom;
-    padding-top: 26px;
-    padding-left: 46px; }
-    .yx-section-2 .yx-square.one {
-      background-image: url(index_pen.png); }
-    .yx-section-2 .yx-square.two {
-      background-image: url(index_pen2.png); }
-    .yx-section-2 .yx-square.three {
-      background-image: url(index_pen3.png); }
+    padding-top: 40px;
+    padding-left: 30px;
+    height: 370px; }
+  .yx-section-2 .yx-bg-category-1 {
+    background-image: url(images/category-1.png); }
+  .yx-section-2 .yx-bg-category-2 {
+    background-image: url(images/category-2.png); }
+  .yx-section-2 .yx-bg-category-3 {
+    background-image: url(images/category-3.png); }
 
 .yx-index-introduce {
   padding: 108px 0;

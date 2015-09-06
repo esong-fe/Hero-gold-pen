@@ -34,37 +34,31 @@
         display: inline-block;
         height: 30px; }
 
-.yx-icon-cart {
+.icon, .yx-icon-cart, .yx-icon-location, .yx-icon-qq, .yx-icon-wb, .yx-icon-wx {
   display: inline-block;
-  background: url(../images/footer.png) no-repeat;
+  background: url(../images/footer.png) no-repeat; }
+
+.yx-icon-cart {
   width: 16px;
   height: 16px;
   background-position: -20px 0; }
 
 .yx-icon-location {
-  display: inline-block;
-  background: url(../images/footer.png) no-repeat;
   width: 14px;
   height: 19px;
   background-position: 0 0; }
 
 .yx-icon-qq {
-  display: inline-block;
-  background: url(../images/footer.png) no-repeat;
   width: 26px;
   height: 26px;
   background-position: -40px -20px; }
 
 .yx-icon-wb {
-  display: inline-block;
-  background: url(../images/footer.png) no-repeat;
   width: 33px;
   height: 27px;
   background-position: -70px -20px; }
 
 .yx-icon-wx {
-  display: inline-block;
-  background: url(../images/footer.png) no-repeat;
   width: 32px;
   height: 26px;
   background-position: 0 -20px; }

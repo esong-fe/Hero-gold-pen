@@ -31,10 +31,11 @@
   border-top: 1px solid #ededed;
   border-bottom: 1px solid #ededed;
   .yx-choose-bar {
-    width: 80%;
+    //width: 80%;
     margin: 0 auto;
     .yx-item {
-      padding: 0;
+      //padding: 0;
+      width: 20%;
 
       .yx-list-item-name {
         cursor: default;
@@ -77,6 +78,12 @@
         background-color: #00746b;
         border-color: #00746b;
         color: #fff;
+        & a {
+          color: #fff;
+          &:hover {
+            text-decoration: none;
+          }
+        }
       }
 
       &:hover .yx-list-item-choose, &.active .yx-list-item-choose {

@@ -13,15 +13,13 @@
     height: 210px;
     position: relative;
     width: 18px; }
-    .yx-history-item .yx-history-string .yx-history-line-1 {
+    .yx-history-item .yx-history-string .yx-history-line-1, .yx-history-item .yx-history-string .yx-history-line-2 {
       background-color: #fff;
       margin: 0 auto;
-      width: 1px;
+      width: 1px; }
+    .yx-history-item .yx-history-string .yx-history-line-1 {
       height: 10px; }
     .yx-history-item .yx-history-string .yx-history-line-2 {
-      background-color: #fff;
-      margin: 0 auto;
-      width: 1px;
       height: 182px; }
     .yx-history-item .yx-history-string .yx-history-circle {
       background-color: #fff;

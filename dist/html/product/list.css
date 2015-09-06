@@ -72,10 +72,9 @@
   border-top: 1px solid #ededed;
   border-bottom: 1px solid #ededed; }
   .yx-product-filter .yx-choose-bar {
-    width: 80%;
     margin: 0 auto; }
     .yx-product-filter .yx-choose-bar .yx-item {
-      padding: 0; }
+      width: 20%; }
       .yx-product-filter .yx-choose-bar .yx-item .yx-list-item-name {
         cursor: default;
         font-size: 16px;
@@ -110,6 +109,10 @@
         background-color: #00746b;
         border-color: #00746b;
         color: #fff; }
+        .yx-product-filter .yx-choose-bar .yx-item:hover .yx-list-item-name a, .yx-product-filter .yx-choose-bar .yx-item.active .yx-list-item-name a {
+          color: #fff; }
+          .yx-product-filter .yx-choose-bar .yx-item:hover .yx-list-item-name a:hover, .yx-product-filter .yx-choose-bar .yx-item.active .yx-list-item-name a:hover {
+            text-decoration: none; }
       .yx-product-filter .yx-choose-bar .yx-item:hover .yx-list-item-choose, .yx-product-filter .yx-choose-bar .yx-item.active .yx-list-item-choose {
         opacity: 1;
         visibility: visible; }
