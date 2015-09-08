@@ -3,13 +3,13 @@
 $base-height: 210px;
 
 .yx-history {
-  background: url("history-background.png") no-repeat center center;
+  background: url("history-background.png") center center;
   padding-top: 140px;
   padding-bottom: 90px;
 }
 
 .yx-history-item {
-  height: $base-height;
+  //min-height: $base-height;
   $base-color: #fff;
   color: $base-color;
 
