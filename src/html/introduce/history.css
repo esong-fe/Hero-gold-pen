@@ -2,12 +2,11 @@
   background: url("banner.png") no-repeat center center; }
 
 .yx-history {
-  background: url("history-background.png") no-repeat center center;
+  background: url("history-background.png") center center;
   padding-top: 140px;
   padding-bottom: 90px; }
 
 .yx-history-item {
-  height: 210px;
   color: #fff; }
   .yx-history-item .yx-history-string {
     height: 210px;
