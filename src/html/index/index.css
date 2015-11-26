@@ -66,7 +66,7 @@ p {
   border-bottom: 1px solid #49413f; }
 
 .yx-header-bg {
-  background: url("images/bg.png") no-repeat center center; }
+  background: url("images/firstbanner.jpg") no-repeat center center; }
 
 .yx-index-jumbotron {
   height: 560px;
@@ -94,17 +94,21 @@ p {
   .yx-section-2 .pull-left {
     width: 20%;
     padding-right: 10px; }
-  .yx-section-2 .yx-bg-category-1, .yx-section-2 .yx-bg-category-2, .yx-section-2 .yx-bg-category-3 {
+  .yx-section-2 .yx-bg-category-1, .yx-section-2 .yx-bg-category-2, .yx-section-2 .yx-bg-category-3 , .yx-section-2 .yx-bg-category-4 ,.yx-section-2 .yx-bg-category-5{
     background: no-repeat right bottom;
     padding-top: 40px;
     padding-left: 30px;
     height: 370px; }
   .yx-section-2 .yx-bg-category-1 {
-    background-image: url(images/category-1.png); }
+    background-image: url(images/category-5.jpg); }
   .yx-section-2 .yx-bg-category-2 {
-    background-image: url(images/category-2.png); }
+    background-image: url(images/category-2.jpg); }
   .yx-section-2 .yx-bg-category-3 {
-    background-image: url(images/category-3.png); }
+    background-image: url(images/category-1.jpg); }
+.yx-section-2 .yx-bg-category-4 {
+  background-image: url(images/category-3.jpg); }
+.yx-section-2 .yx-bg-category-5 {
+  background-image: url(images/category-4.jpg); }
 
 .yx-index-introduce {
   padding: 108px 0;
